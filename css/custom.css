@@ -53,6 +53,9 @@ figure img {
     box-shadow: 1px 1px 1px -1px rgba(0,0,0,0.2);
 }
 
+/* -------------------------------------------------------
+  @@@   HOME
+  ------------------------------------------------------- */
 #home {
     background-image: url(../img/abstract.jpg);
     background-repeat: no-repeat;
@@ -74,7 +77,9 @@ figure img {
     line-height: 1em;
     background-blend-mode: overlay;
 }
-
+/* -------------------------------------------------------
+  @@@   Skeuomorphism
+  ------------------------------------------------------- */
 #skeuomorphism {
     background-image: url(../img/woodfloor.jpg);
     background-position: center;
@@ -86,13 +91,17 @@ figure img {
 #skeuomorphism h2 {
     color: #c97e4b;
 }
-
+/* -------------------------------------------------------
+  @@@   Flatedesign
+  ------------------------------------------------------- */
 #flatedesign {
     background:linear-gradient(45deg white, #e0e0e0);
     box-shadow: none;
     
 }
-
+/* -------------------------------------------------------
+  @@@   materialdesign
+  ------------------------------------------------------- */
 #materialdesign {
     background-color: #f44133;
 }
