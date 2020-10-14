@@ -10,9 +10,11 @@ body {
     font-size: 1.4rem;
     font-family: 'Raleway', sans-serif;
 }
+
 /* -------------------------------------------------------
   @@@   HEADER
   ------------------------------------------------------- */
+
 header {
     background: #000000;
     opacity: 80%;
@@ -20,7 +22,7 @@ header {
 
 header a {
     color: #ffffff;
-    text-shadow: 1px 1px 3px #000000;
+    text-shadow: 1px 1px #000000;
     opacity: 30%;
     text-decoration: none;
 }
@@ -37,12 +39,68 @@ header a:nth-child(1) {
 h2 {
     letter-spacing: 0,5em;
 }
+
+/* -------------------------------------------------------
+  @@@   FIGURE
+  ------------------------------------------------------- */
+
 figure figcaption {
     font-style: italic;
     text-align: center; 
 }
 
+figure img {
+    box-shadow: 1px 1px 1px -1px rgba(0,0,0,0.2);
+}
 
+#home {
+    background-image: url(../img/abstract.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #2d3fbd;
+    background-attachment: fixed;
+}
 
+#home {
+    color: #ffffff;
+    line-height: 2rem;
+}
 
+#home h1 {
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20vmin;
+    line-height: 1em;
+    background-blend-mode: overlay;
+}
 
+#skeuomorphism {
+    background-image: url(../img/woodfloor.jpg);
+    background-position: center;
+    background-size:cover;
+    background-color: white;
+    background-repeat: repeat ;
+}
+
+#skeuomorphism h2 {
+    color: #c97e4b;
+}
+
+#flatedesign {
+    background:linear-gradient(45deg white, #e0e0e0);
+    box-shadow: none;
+    
+}
+
+#materialdesign {
+    background-color: #f44133;
+}
+
+#materialdesign h2 {
+    color: #f44133;
+}
+
+.content  {
+    background-color: #ebecf0;
+}
